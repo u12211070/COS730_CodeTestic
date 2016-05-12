@@ -1,0 +1,42 @@
+\documentclass[a4paper]{article}
+
+\usepackage{import}
+\usepackage{import}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{todonotes}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{gantt}
+\restylefloat{table}
+\graphicspath{ {images/} }
+
+\subimport{./}{asection}
+
+\title{Testing: Publications}
+
+\author{
+	Mphahlele, Motsoape, Collins, 12211070\\
+	\texttt{u12211070@tuks.co.za}
+	\and
+	LastName2, FirstName2\\
+	\texttt{first2.last2@xxxxx.com}
+	\and
+	LastName3, FirstName3\\
+	\texttt{first3.last3@xxxxx.com}
+}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+
+\newpage
+\subimport{}{publicationsTesting}
+
+\bibliographystyle{abbrv}
+\bibliography{bibliography/bibliography}
+
+\end{document}
