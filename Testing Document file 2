@@ -1,0 +1,22 @@
+Approach-
+The test personally use the IEEE 2008 standard known as the 829 Standard for Software Test Documentation, it use the publication and the test case specification The approach in this unit testing plan is to test the publication module of the research system for this project. The architectural specification use for this design was the virtual DOM (GitHub), JavaScript and the integration with the npm. 
+The unit testing is executed using test code in the form of their test tools, the unit test requires a set of tools to find the bug. The tools which was use was the Java source code analyzer. And it was also use for security proposes 
+TEST ACCEPTANCE CRITERIA
+1.	Approved Functional Specification document, Use case documents must be available prior to start of Test design phase.
+2.	Test cases approved and signed-off prior to start of Test execution
+3.	Development completed, unit tested with pass status and results shared to Testing team to avoid duplicate defects
+4.	Test environment with application installed, configured and ready to use state.
+Environment 
+A windows environment with Internet Explorer 8, 9 and 10, and with Firefox 27.0, as well as Google Chrome 32.0 and the installed GitHub application.
+
+Fail and pass critical 
+Tests executed against the system use the functional requirements, non-functional requirements, and use cases as the factor to determine a pass or fail.
+The test exhibits a product pass to meet the objectives of any of the functional requirements, non-functional requirements, and the use cases.
+
+Recommendation 
+•	Review test plan, scripts, expected results, and provide timely feedback.  
+•	Assist in the validation of results 
+•	Support the development and testing processes being used to support the project.
+•	Conduct an investigation into execution discrepancies of the test and 
+•	Assist test executors in creation of accurate defects
+
