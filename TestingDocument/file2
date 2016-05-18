@@ -1,0 +1,48 @@
+INTRODUCTION 
+The purpose of the test plan is to test publication module for which was presented by the developers for the research support project. The master specification document version 0.1 released on the 15th march 2016. The objective of the testing the publication is the test the functionality of maintaining information of a publication throughout the circle of a research, in it has an option to be published or abandoned.
+The functional requirement of the preconditions for this case is 
+•	Detecting the actual publication.
+•	Checking the state of which entries captures for the state of publication
+•	Checking publication in a database.
+•	Checking the notification alert for any of the authors 
+Nonfunctional requirement 
+Flexibility 
+Add publication - the function is easily add different access channel of publication.
+Change publication state- the function is to be able to make impartation in the state of publication of a research.
+Modify publication type- the function is flexible to adopt change in the publication type 
+Deactivate publication type- the function is flexible to turn off (disengage) a publication.
+Reactivate publication type- the function is flexible to restart a publication
+Add publication type - the function is flexible to created and update publications  
+
+Maintenance- 
+ It should be easy to maintain the system in the future. To this end future developers should be able to easily understand the system, the technologies chosen for the system can be reasonably expected to be available for a longtime, and developers should be able to easily and relatively quickly change aspects of the functionality the system provides, and add new functionality to the system.
+
+Add publication- the function of maintaining the system to will rely on how the system is be manage and cared for.  It depend on the developer to 
+Change Publication State- this function totally depend on the maintenance of the system 
+Deactivate Publication Type- this function totally depend on the maintenance of the system
+Modify Publication Type this function totally depend on the maintenance of the system
+ Reactivate Publication Type- this function totally depend on the maintenance of the system
+ Add Publication Type - this function totally depend on the maintenance of the system
+Scalabilities- the network round-trip which is outside the control of the
+System.
+Add publication- The architecture of the system is easily scaled to add publication research communities of several hundred researchers.
+ Change publication state- the function of the system is easy to change publication usually within the scale
+  Deactivate publication type- the function of deactivate publication is easy
+Modify publication type -the function of modify publication is easy
+ Reactivate publication type- the function of reactivate publication 
+Add publication type - the function of adding a publication is easy as long it’s in the accessible in 
+
+
+
+
+
+
+Deliverables 
+What documents (test artifacts) are going to produce at what time frames
+What can be expected from each document?
+	
+Environment 
+What kind of environment requirements exist
+Who is going to be in charge?
+What to do in case of problems
+	
