@@ -1,16 +1,16 @@
 \subsubsection{Pre-condition violations}
 \subsubsubsection{addPublication}
-A new publication is created with its own state trace represented by a time-ordered sequence of state entries and encapsulating the initial state of the publication. A user he/she should be one of the authors of the publication, be research group leader and at least one of the authors is a member of the research group and the user must have the role of research manager to add a publication.
-The service is tested with the ubove mentioned constrains to check if the service meets the specified requirements. The preconditions were not violated.
+A new publication is created with its own state trace represented by a time-ordered sequence of state entries and encapsulating the initial state of the publication. A user he/she should be one of the authors of the publication, researches group leader and at least one of the authors is a member of the research group and the user must have the role of research manager to add a publication.
+The service is tested with the above-mentioned constraints to check if the service meets the specified requirements. The preconditions were not violated.
 
 \subsubsubsection{changePublicationState}
-When changing the publication state the user needs to be the uathor of the publication, must be a research group leader and the user has manager role. From the test it showed that this precondition were violated.
+When changing the publication state the user needs to be the author of the publication, must be a research group leader and the user has manager role. From the test, it showed that this precondition was violated.
 
 \subsubsubsection{modifyPublicationType}
 The user needs to be an administrator to modify the publication type which was not violated
 
 \subsubsubsection{diactivatePublicationType}
-The user needs to be an administrator to diactivate the publication type which was not violated
+The user needs to be an administrator to deactivate the publication type which was not violated
 
 \subsubsubsection{reactivatePublicationType}
 The user needs to be an administrator to reactivate the publication type which was not violated
